@@ -1,0 +1,35 @@
+body {
+    background-color: #F9FAFB;
+}
+
+#main {
+    margin: auto;
+
+    max-width: 1000;
+    height: 100vh;
+
+    display: flex;
+}
+
+.white-bg {
+    background-color: #fff;
+}
+
+div.image {
+    flex: 1;
+    background-image: url(./images/hai-nguyen-6uTMxVnEK58-unsplash.jpg);
+    background-size: cover;
+}
+
+form {
+   flex: 2;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+}
+
+form div {
+    flex: 1;
+    padding: 100px;
+}
