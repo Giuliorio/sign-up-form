@@ -25,11 +25,71 @@ form {
    flex: 2;
    display: flex;
    flex-direction: column;
-   justify-content: center;
+   justify-content: flex-start;
    align-items: flex-start;
 }
 
-form div {
+.container {
     flex: 1;
-    padding: 100px;
+    width: 100%;
+    padding: 24px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.first {
+    position: relative;
+}
+
+.first > div {
+    position: absolute;
+    bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    max-width: 80ch;
+}
+
+fieldset {
+    border: 0 none;
+    display: flex;
+    gap: 60px;
+    padding: 0;
+}
+
+.input-item {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.input-item label{
+    font-size: 10px;
+    font-weight: 800;
+}
+
+button {
+    width: 200px;
+    height: 40px;
+    background-color: #5E6C26;
+    color: #fff;
+    font-weight: 900;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #43531D;
+}
+
+a {
+    color: #5E6C26;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+a:hover {
+    color: #43531D;
 }

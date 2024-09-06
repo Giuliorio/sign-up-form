@@ -14,27 +14,46 @@
     <section id="main">
         <div class="image"></div>
         <form action="post">
-            <div class="container">
-                <p>
-                    This is not an a real online service! You know you need something like this in your life to help you realize your deepest dreams.
-                </p>
-                <br>
-                <p>You know you want to.</p>        
+            <div class="container first">
+                <div class="text">
+                    <p>
+                        This is not an a real online service! You know you need something like this in your life to help you realize your deepest dreams.
+                    </p>
+                    <p>You know you want to.</p>        
+                </div>
             </div>
-            <div class="container white-bg">
+            <div class="container center white-bg">
                 <p>Let's do this!</p>
-                <label for="first-name">FIRST NAME</label>
-                <input type="text" name="first-name" id="first-name" required />
-                <label for="last-name">LAST NAME</label>
-                <input type="text" name="last-name" id="last-name" required />
-                <label for="email">EMAIL</label>
-                <input type="email" name="email" id="email" required />
-                <label for="phone-number">PHONE NUMBER</label>
-                <input type="number" name="phone-number" id="phone-number">
-                <label for="password">PASSWORD</label>
-                <input type="password" name="password" id="password">
-                <label for="confirm-password">CONFIRM PASSWORD</label>
-                <input type="password" name="confirm-password" id="confirm-password">
+                <fieldset>
+                    <div class="input-item">
+                        <label for="first-name">FIRST NAME</label>
+                        <input type="text" name="first-name" id="first-name" required />
+                    </div>
+                    <div class="input-item">
+                        <label for="last-name">LAST NAME</label>
+                        <input type="text" name="last-name" id="last-name" required />
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <div class="input-item">
+                        <label for="email">EMAIL</label>
+                        <input type="email" name="email" id="email" required />
+                    </div>
+                    <div class="input-item">
+                        <label for="phone-number">PHONE NUMBER</label>
+                        <input type="number" name="phone-number" id="phone-number">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <div class="input-item">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" name="password" id="password">
+                    </div>
+                    <div class="input-item">
+                        <label for="confirm-password">CONFIRM PASSWORD</label>
+                        <input type="password" name="confirm-password" id="confirm-password">
+                    </div>
+                </fieldset>
             </div>
             <div class="container">
                 <button type="submit">Create Account</button>
