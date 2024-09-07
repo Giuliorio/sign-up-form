@@ -15,10 +15,41 @@ body {
     background-color: #fff;
 }
 
-div.image {
+.image {
     flex: 1;
     background-image: url(./images/hai-nguyen-6uTMxVnEK58-unsplash.jpg);
     background-size: cover;
+
+    position: relative;
+    color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20%;
+
+    padding-bottom: 12px;
+}
+
+.image a {
+    color: #fff;
+}
+
+.image .icon {
+    font-size: 24px;
+}
+
+.image .title {
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 150px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 50px;
 }
 
 form {
@@ -84,13 +115,13 @@ button:hover {
     background-color: #43531D;
 }
 
-a {
+.log-in {
     color: #5E6C26;
     text-decoration: none;
     font-weight: 900;
 }
 
-a:hover {
+.log-in:hover {
     color: #43531D;
 }
 
