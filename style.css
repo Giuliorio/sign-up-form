@@ -134,3 +134,11 @@ button:hover {
 .emphasis {
     font-weight: 600;
 }
+
+form input:invalid:focus {
+    outline-color: rgba(255, 87, 51, 1);
+}
+
+form input:valid:focus {
+    outline-color: rgba(24, 207, 103, 1);
+}
